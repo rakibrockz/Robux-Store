@@ -1,5 +1,6 @@
 import React from "react";
 import { FiArrowRight } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ className,Price, src, detail}) => {
   return (
@@ -14,7 +15,7 @@ const ProductCard = ({ className,Price, src, detail}) => {
         </div>
       </div>
       <div className=" group btn border bg-white text-black  text-center hover:bg-black  transition-all duration-200">
-        <button className="py-4 px-6 group-hover:text-black  transition-all duration-200  font-bold font-arimo">BUY</button>
+        <Link to="/checkout"><button className="py-4 px-6 group-hover:text-black  transition-all duration-200  font-bold font-arimo">BUY</button></Link>
       </div>
     </div>
   );

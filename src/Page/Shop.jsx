@@ -11,6 +11,7 @@ import r3 from '../../public/pricechart/r800.png'
 import r4 from '../../public/pricechart/r1700.png'
 import r5 from '../../public/pricechart/r4500.png'
 import "animate.css";
+import Form from '../Layout/Form';
 
 const Shop = () => {
   return (
