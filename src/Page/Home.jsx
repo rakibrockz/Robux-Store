@@ -28,7 +28,7 @@ const Home = () => {
             </h2>
           </div>
 
-          <div className="description md:w-[700px] w-[450px] text-center mx-auto font-bold my-5 animate__animated animate__fadeInDown animate__backOutUp animate__delay-1s">
+          <div className="description md:w-[700px] w-[300px] sm:w-[450px] text-center mx-auto font-bold my-5 animate__animated animate__fadeInDown animate__backOutUp animate__delay-1s">
             <p>
               Welcome to the ultimate Robux buying platform in Bangladesh!
               Managing a thriving Roblox community on Facebook, I’ve seen the
